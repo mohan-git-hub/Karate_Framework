@@ -1,0 +1,28 @@
+<testsuite failures="0" name="src/test/java/features/GetUsersAPI.feature" skipped="0" tests="2" time="2.076392">
+  <testcase classname="src.test.java.features.GetUsersAPI" name="Get Details of Users" time="1.807855">
+    <system-out>Given url baseUrl + '/public/v1/users' .................................... passed
+And path '5' .............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def Username = response.data.name ....................................... passed
+* print "Name of the User is " + Username ................................. passed
+* match Username == "Sarla Verma" ......................................... passed
+* match response.data.gender == "female" .................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.GetUsersAPI" name="Verify Invalid User Response" time="0.268537">
+    <system-out>Given url baseUrl + '/public/v1/users' .................................... passed
+And path '5' .............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def Username = response.data.name ....................................... passed
+* print "Name of the User is " + Username ................................. passed
+* match Username == "Sarla Verma" ......................................... passed
+* match response.data.gender == "female" .................................. passed
+Given url baseUrl + '/public/v1/users' .................................... passed
+And path '0' .............................................................. passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

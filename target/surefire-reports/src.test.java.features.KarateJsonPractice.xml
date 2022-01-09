@@ -1,0 +1,15 @@
+<testsuite failures="0" name="src/test/java/features/KarateJsonPractice.feature" skipped="0" tests="2" time="0.194377">
+  <testcase classname="src.test.java.features.KarateJsonPractice" name="Daily Covid Cases" time="0.172167">
+    <system-out>* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print jsonObject[0].City ................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.KarateJsonPractice" name="Another Complex Json practice" time="0.02221">
+    <system-out>* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print jsonObject[0].City ................................................ passed
+* def APIObject = ......................................................... passed
+* print APIObject.menu.header ............................................. passed
+* print APIObject.menu.items[5].id ........................................ passed</system-out>
+  </testcase>
+</testsuite>

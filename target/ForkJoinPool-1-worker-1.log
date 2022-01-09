@@ -1,0 +1,78 @@
+14:09:02.397 request:
+1 > GET https://gorest.co.in/public/v1/users/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+
+14:09:02.960 response time in milliseconds: 558.72
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 09 Jan 2022 08:39:02 GMT
+1 < ETag: W/"a02092c4e82287fb74d9f43461e7cbdf"
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 94765568-a059-43b5-83e1-7171c42e97c0
+1 < X-Runtime: 0.005136
+1 < X-XSS-Protection: 1; mode=block
+{"meta":null,"data":{"id":5,"name":"Sarla Verma","email":"verma_sarla@cassin-pfannerstill.co","gender":"female","status":"active"}}
+
+14:09:02.966 [print] {
+  "data": {
+    "gender": "female",
+    "name": "Sarla Verma",
+    "id": 5,
+    "email": "verma_sarla@cassin-pfannerstill.co",
+    "status": "active"
+  },
+  "meta": null
+}
+
+14:09:02.984 [print] Name of the User is Sarla Verma
+14:09:03.026 request:
+1 > GET https://gorest.co.in/public/v1/users/0
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+
+14:09:03.287 response time in milliseconds: 259.47
+1 < 404
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 09 Jan 2022 08:39:02 GMT
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 4d30c552-77f5-4c04-aa69-307824133b1a
+1 < X-Runtime: 0.003672
+1 < X-XSS-Protection: 1; mode=block
+{"meta":null,"data":{"message":"Resource not found"}}
+
+ntime: 0.003450
+1 < X-XSS-Protection: 1; mode=block
+{"meta":null,"data":{"message":"Resource not found"}}
+
+mitted-Cross-Domain-Policies: none
+1 < X-Request-Id: cb8d2268-fe31-4b8d-86f9-eae61abca624
+1 < X-Runtime: 0.003931
+1 < X-XSS-Protection: 1; mode=block
+{"meta":null,"data":{"message":"Resource not found"}}
+
+beatty-hoeger.name","status":"active"},"meta":null}
